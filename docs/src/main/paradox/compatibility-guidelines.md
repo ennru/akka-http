@@ -144,6 +144,6 @@ The same goes for `akka-http-testkit`: If the testkit is used, explicitly declar
   value2="$project.version$"
   group1="com.typesafe.akka" artifact1="akka-http_$scala.binary.version$" version1="AkkaHttpVersion"
   group2="com.typesafe.akka" artifact2="akka-stream_$scala.binary.version$" version2=AkkaVersion
-  group3="com.typesafe.akka" artifact3="akka-http-testkit_$scala.binary.version$" version3=AkkaHttpVersion scope3=Test
-  group4="com.typesafe.akka" artifact4="akka-stream-testkit_$scala.binary.version$" version4=AkkaVersion scope4=Test
+  group3="com.typesafe.akka" artifact3="akka-http-testkit_$scala.binary.version$" version3=AkkaHttpVersion scope3=test
+  group4="com.typesafe.akka" artifact4="akka-stream-testkit_$scala.binary.version$" version4=AkkaVersion scope4=test
 }
